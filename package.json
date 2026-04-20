@@ -1,0 +1,12 @@
+{
+  "name": "skeleton-php-tailwind-starter",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build:css": "tailwindcss -c tailwind.config.js -i ./assets/css/input.css -o ./assets/css/styles.css --minify",
+    "watch:css": "tailwindcss -c tailwind.config.js -i ./assets/css/input.css -o ./assets/css/styles.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
